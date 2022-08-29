@@ -36,3 +36,33 @@ body{
     height: 613px;
     margin-top: 33px;
 }
+
+/* main */
+main{
+    margin-top: 143px;
+}
+
+/* fixed width set */
+.main-fixed{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    position: absolute;
+    padding: 30px;
+    /* margin-bottom: 1396px; */
+    
+}
+.fixed-options{
+    background-color: white;
+    color:#242424;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.blog{
+   background-color: #DD0000; 
+   padding: 5px;
+   border-radius: 5px;
+   text-align: center;
+}
