@@ -1,3 +1,38 @@
 /* google font  */
 body{
     font-family: 'Poppins', sans-serif;}
+
+    /* header section */
+    header{
+        width: 1321px;
+        height: 646px;
+        color: white;
+        background-color: #161616;
+        border-radius: 10px;
+
+    }
+
+/* anchor  */
+.header-text a{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-img, .header-text{
+    width: 50%;
+    /* font-weight: 900px; */
+}
+.header-text{
+    margin: 111px 111px 11px 24px;
+}
+.header-img img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
