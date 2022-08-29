@@ -60,6 +60,12 @@ main{
     /* margin-bottom: 1396px; */
     
 }
+.flexiable-icon{
+    display: flex;
+    /* justify-content:; */
+    gap: 10px;
+    
+}
 .fixed-options{
     background-color: white;
     color:#242424;
@@ -84,4 +90,24 @@ main{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-column-gap: 10px;
+}
+
+/* footer section */
+
+footer{
+    color: white;
+background-color: #161616;
+margin: 0;
+}
+.footer-goal h1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+padding-left: 40%;
+}
+.footer-specification{
+display: flex;
+justify-content: center;
+gap: 5%;
+padding-bottom: 100px;
+
 }
