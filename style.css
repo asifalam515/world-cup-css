@@ -43,11 +43,19 @@ main{
 }
 
 /* fixed width set */
+
+.main-section{
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+
 .main-fixed{
     background-color: #161616;
     width: 312px;
     height: 312px;
-    position: absolute;
+    /* position: absolute; */
     padding: 30px;
     /* margin-bottom: 1396px; */
     
@@ -65,4 +73,15 @@ main{
    padding: 5px;
    border-radius: 5px;
    text-align: center;
+}
+
+/*  */
+.card{
+    width: 312px;
+    height: 362px;
+}
+.main-card{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 10px;
 }
