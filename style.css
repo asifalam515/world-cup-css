@@ -89,6 +89,7 @@ main{
 .card{
     width: 312px;
     height: 362px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
 }
 .main-card{
 display: grid;
@@ -117,4 +118,52 @@ padding-bottom: 100px;
 
 }
 
-/* Media queries for responsibe */
+/* css animation for header
+ */
+.header-img:hover{
+    
+    background-image: url("https://images.unsplash.com/photo-1622766815178-641bef2b4630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8N3VwfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+border-radius: 10px;    
+    transition: width 2s,height 4s;
+}
+
+/* Media queries for responsible */
+/*responsive  for mobile */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header, main,footer{
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header, main,footer{
+        width: 100%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header, main,footer{
+        width: 100%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header, main,footer{
+        width: 100%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header, main,footer{
+        width: 100%;
+    }
+
+}
