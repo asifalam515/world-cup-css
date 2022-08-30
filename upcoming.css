@@ -133,3 +133,45 @@ gap: 5%;
 padding-bottom: 100px;
 
 }
+
+/* Media query for responsive */
+/* responsive for mobile */
+@media only screen and (max-width: 767px) {
+   
+
+    /* main */
+    
+.main-section{
+    display: grid;
+    
+
+
+}
+
+.main-fixed{
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: center;
+}
+    
+   
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .main-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+ /* main section responsive*/
+ 
+
+
+/* footer mediaquery */
+.footer-specification{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+}
