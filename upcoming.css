@@ -1,6 +1,10 @@
-/* google font  */
-body{
-    font-family: 'Poppins', sans-serif;}
+
+/* google font */
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section */
 
     /* header section */
     header{
@@ -9,6 +13,7 @@ body{
         color: white;
         background-color: #161616;
         border-radius: 10px;
+        margin-bottom: 50px;
     
 
         /* justify-content: center; */
@@ -26,6 +31,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    
 }
 .header-img, .header-text{
     width: 50%;
@@ -45,14 +51,10 @@ main{
     margin-top: 143px;
 }
 
-/* fixed width set */
-
 .main-section{
-    margin-bottom: 50px;
-    display: flex;
-    gap: 10px;
+    
+    margin-bottom: 100px 100px 100px 100px;
 }
-
 
 .main-fixed{
     background-color: #161616;
@@ -69,7 +71,7 @@ main{
     gap: 10px;
     
 }
-.fixed-options,.fixed-options a{
+.fixed-options, .blog{
     background-color: white;
     color:#242424;
     padding: 5px;
@@ -78,43 +80,9 @@ main{
     text-decoration: none;
     
 }
-.blog{
-   background-color: #DD0000; 
-   padding: 5px;
-   border-radius: 5px;
-   text-align: center;
-}
-
-/*  */
-.card{
-    width: 312px;
-    height: 362px;
-}
-.main-card{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-column-gap: 10px;
-}
-
-/* footer section */
-
-footer{
-    color: white;
-background-color: #161616;
-margin: 0;
-}
-.footer-goal h1{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.upcoming-match{
+    background-color: #DD0000; 
+    padding: 5px;
+    border-radius: 5px;
     text-align: center;
-    margin: 0px;
-}
-.footer-specification{
-display: flex;
-justify-content: center;
-gap: 5%;
-padding-bottom: 100px;
-
-}
-
-/* Media queries for responsibe */
+ }
