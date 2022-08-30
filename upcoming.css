@@ -54,6 +54,8 @@ main{
 .main-section{
     
     margin-bottom: 100px 100px 100px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-fixed{
@@ -62,7 +64,9 @@ main{
     height: 312px;
     /* position: absolute; */
     padding: 30px;
-    /* margin-bottom: 1396px; */
+    width:252px ;
+    height: 252px;
+    /* margin-bottom: 50px; */
     
 }
 .flexiable-icon{
@@ -85,4 +89,21 @@ main{
     padding: 5px;
     border-radius: 5px;
     text-align: center;
+ }
+
+ /* Germany vs france card */
+ .vs{
+    width: 252px;
+    height: 56.12px;
+    display: flex;
+    justify-content: space-around;
+}
+ .card{
+    height: 242px;
+    width: 312px;
+ }
+
+ .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
  }
