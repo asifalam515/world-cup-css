@@ -15,6 +15,22 @@ body{
 
     }
 
+
+    /* css animation for header
+ */
+.header-img:hover{
+    
+    background-image:  url("https://images.unsplash.com/photo-1622766815178-641bef2b4630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8N3VwfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size:cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+border-radius: 10px;    
+    transition: width 2s,height 4s;
+    
+}
+
+
 /* anchor  */
 .header-text a{
     text-decoration: none;
@@ -56,9 +72,8 @@ main{
 
 .main-fixed{
     background-color: #161616;
-    width: 312px;
-    height: 312px;
-    /* position: absolute; */
+     width: 312px;
+     height: 312px; 
     padding: 30px;
     /* margin-bottom: 1396px; */
     
@@ -118,24 +133,19 @@ padding-bottom: 100px;
 
 }
 
-/* css animation for header
- */
-.header-img:hover{
-    
-    background-image:  url("https://images.unsplash.com/photo-1622766815178-641bef2b4630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8N3VwfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
-    background-size:cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    
-border-radius: 10px;    
-    transition: width 2s,height 4s;
-    
+
+/* footer hidden section */
+.social-icon{
+    visibility: hidden;
 }
+
+
+
 
 /* Media queries for responsible */
 /*responsive  for mobile */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     header, main,footer{
         width: 100%;
         /* padding: 1rem; */
@@ -152,6 +162,19 @@ border-radius: 10px;
         margin: auto;
 
     }
+
+.main-section{
+    display: grid;
+    
+
+
+}
+
+.main-fixed{
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: center;
+}
     
     .header-img img{
         width: 100%;
@@ -168,15 +191,24 @@ border-radius: 10px;
         justify-content: center;
         
     }
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        /* justify-content: space-between; */
+        visibility: visible;
+    }
+    .fb,.instra,.whatsapp{
+        padding: 15px;
+        opacity: 2;
+    }
 
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   
 
-}
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
