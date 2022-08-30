@@ -135,6 +135,7 @@ margin: 0;
 display: flex;
 justify-content: center;
 gap: 5%;
+align-items: center;
 padding-bottom: 100px;
 
 }
