@@ -84,7 +84,7 @@ main{
     gap: 10px;
     
 }
-.fixed-options,.fixed-options a{
+.fixed-options,.fixed-options a,.blog-anchor a{
     background-color: white;
     color:#242424;
     padding: 5px;
@@ -93,11 +93,17 @@ main{
     text-decoration: none;
     
 }
-.blog{
-   background-color: #DD0000; 
-   padding: 5px;
-   border-radius: 5px;
-   text-align: center;
+.blog-anchor a{
+    display: block;
+    width: 272px;
+    height: 25px;
+    background: #DD0000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
 }
 
 /*  */
